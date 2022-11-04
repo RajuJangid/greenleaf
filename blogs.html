@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GREEN LEAF</title>
+</head>
+<body>
+    <header>
+        <img src="blog-bkg-2.jpg" alt="background" id="blog-ki-upper-image">
+        <nav class="navbar">
+            <img src="logo.jpg" alt="logo" id="logo">
+            <h1 id="companyname">Green Leaf</h1>
+            <ul class="ul" id="bb">
+                <li class="li" id="home"> <a href="index.html">Home</a></li>
+                <li class="li" id="about"> <a href="about.html">About</a></li>
+                <li class="li" id="blogs"> <a href="blogs.html">Blogs</a></li>
+                <li class="li" id="projects"> <a href="projects.html">Projects</a></li>
+                <li class="li" id="contact"> <a href="contact.html">Contact</a></li>
+            </ul>
+            <div id="burger" onclick="hamburger()">
+                <div class="line" id="l1"></div>
+                <div class="line" id="l2"></div>
+                <div class="line" id="l3"></div>
+            </div>
+            
+            <input type="text" id="search" placeholder="Search">
+            <div class="search-logo" onclick="Clear()">
+                <img id="search-img" src="search.svg" alt="search">
+            </div>
+            <img src="user.png" alt="userimage" id="userimg" onclick="signin()">
+            <div id="login" class="signin">LOG IN</div>
+            <div id="signup" class="signin">SIGN UP</div>
+        </nav>
+        <div id="navunderline"></div>
+    </header>
+    <section id="blogs" class="blogs">
+        <img src="blog background.jpg" alt="" id="blog-ki-lower-image">
+        <h2 id="blog-heading"><u>Blogs</u></h2>
+        <img id="blog-1-image" src="blog-img-1.jpg" alt="blog-img">
+        <div id="article-1">
+            <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia earum velit amet</b> <br>
+             officiis culpa deleniti perspiciatis provident! Repellat, asperiores eius nam animi accusantium possimus adipisci! Et magnam cumque fuga unde, minima error. Nobis possimus adipisci ab laudantium nostrum amet?
+             <button class="btn-read-more" id="read-more-1"><a href="blog1.html">READ MORE</a></button>
+        </div>
+        <img id="blog-2-image" src="blog-img-2.jpg" alt="blog-img">
+        <div id="article-2">
+            <b>Delectus similique tempora ipsam quibusdam totam minus expedita temporibus soluta</b> <br> ratione enim, exercitationem atque provident optio. Quod. Hic esse consequatur,     mollitia vero officiis saepe. deleniti iure quisquam nihil quia quod beatae molestias fuga aspernatur illo itaque. Nisi, eaque.
+            <button class="btn-read-more" id="read-more-2" onclick="blogview()"><a>READ MORE</a></button>
+        </div>
+        <img id="blog-3-image" src="blog-img-3.jpg" alt="blog-img">
+        <div id="article-3">
+            <b>Amet doloribus dolorem, deserunt mollitia molestiae suscipit rerum reiciendis omnis</b> <br> adipisci, quo iusto, culpa beatae unde. Quaerat. Fuga, ratione. Consequatur recusandae eaque quae, corrupti quas explicabo officiis ipsam sapiente! Esse possimus laborum id voluptatum? Dolorum, laudantium.
+            <button class="btn-read-more" id="read-more-3"><a href="blog1.html">READ MORE</a> </button>
+        </div>
+        <img id="blog-4-image" src="blog-img-4.jpg" alt="blog-img">
+        <div id="article-4">
+            <b> Eius odit earum dolorem tempore architecto pariatur voluptate, voluptas temporibus</b> <br> amet est iure cupiditate, ipsum soluta fugiat? Modi beatae, ipsum dolorum sed dolore aliquid odit facere aperiam impedit labore odio ipsam quidem? Molestiae quas deleniti aspernatur sapiente ab facere!
+            <button class="btn-read-more" id="read-more-4"> <a href="blog1.html"></a> MORE</button>
+        </div>
+        <img id="blog-5-image" src="blog-img-5.jpg" alt="blog-img">
+        <div id="article-5">
+            <b> Architecto, vero! Unde doloremque iure iusto illo, itaque vitae accusantium </b>
+            <br> consequuntur labore doloribus repellat enim minus officiis! Quia, ipsum. Quasi repellat ea pariatur, assumenda, eaque accusamus, illo aperiam officia rerum quis velit.
+            Aspernatur quas inventore quis delectus rerum modi!
+            <button class="btn-read-more" id="read-more-5">READ MORE</button>
+        </div>
+    </section>
+    <footer>
+        Copyright &copy; 2025 www.greenleaf.com. All rights reserved.
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

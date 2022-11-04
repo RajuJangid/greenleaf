@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GREEN LEAF</title>
+</head>
+
+<body>
+    <header>
+        <img src="bimage.png" alt="Environment image" class="bkg-slides" id="bimage">
+        <nav class="navbar">
+            <img src="logo.jpg" alt="logo" id="logo">
+            <h1 id="companyname">Green Leaf</h1>
+            <ul class="ul" id="bb">
+                <li class="li" id="home"> <a href="index.html">Home</a></li>
+                <li class="li" id="about"> <a href="about.html">About</a></li>
+                <li class="li" id="blogs"> <a href="blogs.html">Blogs</a></li>
+                <li class="li" id="projects"> <a href="projects.html">Projects</a></li>
+                <li class="li" id="contact"> <a href="contact.html">Contact</a></li>
+            </ul>
+            <div id="burger" onclick="hamburger()">
+                <div class="line" id="l1"></div>
+                <div class="line" id="l2"></div>
+                <div class="line" id="l3"></div>
+            </div>
+            
+            <input type="text" id="search" placeholder="Search">
+            <div class="search-logo" onclick="Clear()">
+                <img id="search-img" src="search.svg" alt="search">
+            </div>
+            <img src="user.png" alt="userimage" id="userimg" onclick="signin()">
+            <div id="login" class="signin">LOG IN</div>
+            <div id="signup" class="signin">SIGN UP</div>
+        </nav>
+        <div id="navunderline"></div>
+    </header>
+    <section class="home" id="home">
+        <h2 id="heading1">Let's Make, Our Earth More Green</h2>
+        <div class="fact-box">
+            <img id="fact-image" src="fact-img.jpg" alt="Tree image" onmouseover="overarrow()" onmouseout="outarrow()">
+            <img id="left-arrow" class="arrow" src="chevron-left.svg" alt="arrow" onclick="larrow()"
+                onmouseover="overarrow()">
+            <img id="right-arrow" class="arrow" src="chevron-right.svg" alt="arrrow" onclick="rarrow()"
+                onmouseover="overarrow()">
+            <h3 id="home-fact1" onmouseover="overarrow()"><u>Some Amazing Facts</u></h3>
+            <div class="fact" onmouseover="overarrow()">
+                <p id="fact1" class="fact0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda
+                    labore
+                    explicabo veniam porro consectetur tenetur <br> soluta quam veritatis ea! Sint, <br> nostrum non!
+                </p>
+                <P id="fact2" class="fact0">Fugiat, veniam mollitia fugit eligendi architecto, <br> numquam et tempora
+                    laborum facilis officiis quam voluptatum ipsa explicabo. Aliquam illum deleniti ex exercitationem .
+                </P>
+
+                <p id="fact3" class="fact0">Repellat necessitatibus, molestias earum explicabo quidem sint dolorem
+                    sapiente tenetur, non reprehenderit in, <br> consectetur harum? Corrupti aspernatur dolores quo eum
+                    ipsa</p>
+
+                <p id="fact4" class="fact0">Cum obcaecati deserunt, voluptatem fugiat odio cupiditate cumque perferendis
+                    quae esse, <br> praesentium corporis soluta rerum porro consequatur dolorem possimus et.</p>
+            </div>
+        </div>
+        <div class="details1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatibus veritatis
+            rem sunt voluptas quo quibusdam, laudantium, delectus possimus quasi officiis quam, excepturi
+            praesentiumreprehenderit nesciunt iure iusto? <br><br> Laborum architecto nisi numquam optio ipsum delectus
+            suscipit provident, aspernatur nobis minima sit reiciendis expedita! Tempore, maiores accusantium?<br> Ipsa
+            incidunt, et quod dignissimos commodi tenetur ad ipsam dicta sint provident ipsa ut fugiat non, cum nulla
+            culpa animi laboriosam minima ad quas quam deserunt aperiam reprehenderit recusandae error dicta fugit
+            aspernatur tempora asperiores quod optio nihil? <br><br> Ea possimus, pariatur necessitatibus, esse ut
+            quidem cupiditate quod nesciunt nisi dolores consequatur sint beatae. Minima sapiente, quas libero soluta
+            impedit
+            ex alias natus !
+        </div>
+
+        <div id="slideshow">
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img class="photo2" src="map1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="photo2" src="map2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img class="photo2" src="map3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="photo2" src="map4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="details2">Non corporis rem enim molestias amet repellat itaque? Velit recusandae vitae vero culpa.
+            Voluptates fugiat assumenda, cumque doloremque suscipit at pariatur, consectetur possimus odio qui eligendi
+            omnis sed dignissimos aut rem inventore itaque corporis labore esse vitae excepturi vero iusto distinctio!
+            <br><br> Neque, deserunt illum cumque mollitia aperiam inventore saepe quos harum quaerat iste atque earum,
+            repellat laboriosam perferendis. Vel corporis nostrum cupiditate maxime tempora maiores <br> obcaecati
+            culpa, illo corrupti qui suscipit harum voluptatem quisquam impedit, blanditiis non eum illum voluptate
+            dolore unde, dicta ab asperiores praesentium! Deserunt reiciendis dolore sit facere exercitationem dolorum!
+            Enim pariatur eveniet perferendis laborum beatae repellendus?
+        </div>
+
+        <div class="video-section">
+            <!-- <img id="left-border-leaf" src="glleft.png" alt="greenleaf"> -->
+            <!-- <img id="right-border-leaf" src="glright.png" alt="greenleaf"> -->
+            <iframe width="560" height="315" id="video1" src="https://www.youtube.com/embed/SDe7_IVzWCo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h3 id="vid-heading1">Watch Our Youtube <br> Channel To Learn More About It And <br> Save Our Earth</h3>
+        </div>
+    </section>
+
+    <footer>
+        Copyright &copy; 2025 www.greenleaf.com. All rights reserved.
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
